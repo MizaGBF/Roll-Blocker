@@ -1,0 +1,17 @@
+{
+   "name": "GBF Roll Blocker",
+   "version": "1.0",
+   "manifest_version": 2,
+   "background": {
+       "scripts": ["background.js"]
+   },
+   "permissions": [
+       "webRequest",
+       "webRequestBlocking",
+       "*://game.granbluefantasy.jp/*",
+       "*://cdn-connect.mobage.jp/*",
+       "*://connect.mobage.jp/*",
+       "*://app.mobage.jp/*",
+       "*://event-api.analytics.mbga.jp/*"
+   ]
+}
